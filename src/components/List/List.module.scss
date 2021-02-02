@@ -1,9 +1,0 @@
-@import '~@anyvision/style-guide';
-
-.list {
-  @extend %av-scrollbar;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  overflow-y: auto;
-}

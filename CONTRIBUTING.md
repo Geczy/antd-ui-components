@@ -1,4 +1,4 @@
-# Contributing to AnyVision UI
+# Contributing to InMarket UI
 
 Thanks for your interest in improving our components-library!
 
@@ -12,7 +12,7 @@ the latest stable version is the lastes `tag`.
 
 No software is bug-free. So, if you got an issue, follow these steps:
 
-- Search the [issue list](https://github.com/AnyVisionltd/anv-ui-components/issues) for current and old issues.
+- Search the [issue list](https://github.com/InMarketltd/anv-ui-components/issues) for current and old issues.
   - If you find an existing issue, please UPVOTE the issue by adding a "thumbs-up reaction". We use this to help prioritize issues!
 - If none of that is helping, create an issue with the following information:
   - Clear title (shorter is better).
@@ -21,7 +21,7 @@ No software is bug-free. So, if you got an issue, follow these steps:
 
 ````sh
 # Download and build this repository:
-git clone https://github.com/AnyVisionltd/anv-ui-components.git
+git clone https://github.com/InMarketltd/anv-ui-components.git
 cd anv-ui-components
 npm i
 
@@ -54,7 +54,7 @@ Before you submit a new PR, make sure you run `npm run test` and check storybook
 
 ### Reviewing PRs
 
-**As a PR submitter**, you should reference the issue if there is one, include a short description of what you contributed and, if it is a code change, instructions for how to manually test out the change. This is informally enforced by our [PR template](https://github.com/AnyVisionltd/anv-ui-components/blob/development/.github/PULL_REQUEST_TEMPLATE.md).
+**As a PR submitter**, you should reference the issue if there is one, include a short description of what you contributed and, if it is a code change, instructions for how to manually test out the change. This is informally enforced by our [PR template](https://github.com/InMarketltd/anv-ui-components/blob/development/.github/PULL_REQUEST_TEMPLATE.md).
 
 > NOTE: All development happens in the `development` branch. Please Submit PR's, to `development` branch.
 
@@ -74,7 +74,7 @@ Please have the **_latest_** stable versions of the following on your machine
 If you run into trouble here, make sure your node, npm, are on the latest versions.
 
 1.  `cd ~` (optional)
-2.  `git clone https://github.com/AnyVisionltd/anv-ui-components.git`
+2.  `git clone https://github.com/InMarketltd/anv-ui-components.git`
 3.  `cd anv-ui-components`
 4.  `npm i`
 5.  `npm run storybook`
