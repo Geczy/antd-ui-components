@@ -2,6 +2,7 @@ import React, { forwardRef } from 'react'
 import classNames from 'classnames'
 import propTypes from 'prop-types'
 import styles from './Button.module.scss'
+import { Button as AntButton } from 'antd'
 
 /**
  * Buttons allow users to take actions, and make choices, with a single tap.
@@ -11,27 +12,18 @@ const Button = forwardRef(
   (
     {
       size,
-      variant,
+      type,
       leadingIcon,
       disabled,
       onClick,
-      type,
-      className,
       children,
       ...otherProps
     },
     ref,
   ) => {
-    const classes = classNames(
-      styles.button,
-      styles[size],
-      styles[variant],
-      className,
-    )
-
     return (
-      <button
-        className={classes}
+      <AntButton
+        size={size}
         onClick={onClick}
         disabled={disabled}
         ref={ref}
@@ -42,34 +34,30 @@ const Button = forwardRef(
           <span className={styles.leadingIcon}>{leadingIcon}</span>
         )}
         {children}
-      </button>
+      </AntButton>
     )
   },
 )
 
 Button.defaultProps = {
   size: 'medium',
-  variant: 'fill',
+  type: 'fill',
   disabled: false,
   onClick: () => {},
-  type: 'button',
 }
 
 Button.propTypes = {
   /** The size of the button. */
-  size: propTypes.oneOf(['small', 'medium', 'large']),
-  /** The variant of the button. */
-  variant: propTypes.oneOf(['fill', 'outline', 'ghost']),
+  size: propTypes.oneOf(['small', 'middle', 'large']),
+  /** The type of the button. */
+  type: propTypes.oneOf(['dashed', 'outline', 'ghost']),
   /** Icon before the children. */
   leadingIcon: propTypes.element,
   /** If true, the button will be disabled. */
   disabled: propTypes.bool,
   /** Callback when click. */
   onClick: propTypes.func,
-  /** Button type. */
-  type: propTypes.string,
-  /** For css customization. */
-  className: propTypes.string,
+  /** For css custoization. */
   /** The component content. */
   children: propTypes.node.isRequired,
 }

@@ -1,3 +1,5 @@
+import 'antd/dist/antd.less'
+
 export { Button } from './components/Button'
 export { IconButton } from './components/IconButton'
 export { InputBase } from './components/InputBase'

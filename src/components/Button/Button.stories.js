@@ -14,16 +14,16 @@ export const Default = () => <Button>Text</Button>
 
 export const variants = () => (
   <div className={styles.marginFlexContainer}>
-    <Button>fill</Button>
-    <Button variant='outline'>outline</Button>
-    <Button variant='ghost'>ghost</Button>
+    <Button type='dashed'>dashed</Button>
+    <Button type='primary'>primary</Button>
+    <Button type='ghost'>ghost</Button>
   </div>
 )
 
 export const sizes = () => (
   <div className={styles.marginFlexContainer}>
     <Button size='large'>Large</Button>
-    <Button>medium</Button>
+    <Button size='middle'>middle</Button>
     <Button size='small'>small</Button>
   </div>
 )
@@ -42,11 +42,11 @@ export const withClassName = () => (
     {/* background-color: av-color(success); */}
     <Button className={styles.successBackgroundColor}>Text</Button>
     {/* color: av-color(alert); */}
-    <Button className={styles.alertColor} variant='outline'>
+    <Button className={styles.alertColor} type='primary'>
       Text
     </Button>
     {/* color: av-color(error); */}
-    <Button className={styles.errorColor} variant='ghost'>
+    <Button className={styles.errorColor} type='ghost'>
       Text
     </Button>
   </div>

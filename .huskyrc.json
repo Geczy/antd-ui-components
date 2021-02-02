@@ -1,6 +1,4 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged",
-    "pre-push": "npm run lint && npm run test-jenkins"
   }
 }
