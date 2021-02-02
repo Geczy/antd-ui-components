@@ -1,6 +1,7 @@
 import React, { createElement } from 'react'
 import { addDecorator } from '@storybook/react'
 import styles from './decorators.module.scss'
+import 'antd/dist/antd.less'
 
 export const centerDecorator = story => (
   <div className={styles.center}>{story()}</div>
