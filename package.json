@@ -14,7 +14,6 @@
     "url": "https://github.com/geczy/antd-ui-components"
   },
   "dependencies": {
-    "@anyvision/anv-icons": "1.0.0",
     "@anyvision/style-guide": "1.0.4",
     "@popperjs/core": "^2.6.0",
     "antd": "^4.11.2",
@@ -40,7 +39,8 @@
     "test-jenkins": "cross-env CI=true npm test",
     "storybook": "start-storybook -h localhost -p 9009",
     "build-storybook": "build-storybook",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "browserslist": {
     "production": [
@@ -75,6 +75,7 @@
     "@storybook/addons": "6.1.16",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "6.1.16",
+    "@storybook/storybook-deployer": "^2.8.7",
     "@svgr/rollup": "^5.4.0",
     "@svgr/webpack": "^5.3.1",
     "@testing-library/dom": "^7.29.0",
