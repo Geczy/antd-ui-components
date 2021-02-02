@@ -1,7 +1,5 @@
 import React, { forwardRef } from 'react'
-import classNames from 'classnames'
 import propTypes from 'prop-types'
-import styles from './Button.module.scss'
 import { Button as AntButton } from 'antd'
 
 /**
@@ -13,7 +11,6 @@ const Button = forwardRef(
     {
       size,
       type,
-      leadingIcon,
       disabled,
       onClick,
       children,
@@ -30,9 +27,6 @@ const Button = forwardRef(
         type={type}
         {...otherProps}
       >
-        {leadingIcon && (
-          <span className={styles.leadingIcon}>{leadingIcon}</span>
-        )}
         {children}
       </AntButton>
     )
@@ -40,8 +34,8 @@ const Button = forwardRef(
 )
 
 Button.defaultProps = {
-  size: 'medium',
-  type: 'fill',
+  size: 'middle',
+  type: 'primary',
   disabled: false,
   onClick: () => {},
 }
@@ -50,9 +44,7 @@ Button.propTypes = {
   /** The size of the button. */
   size: propTypes.oneOf(['small', 'middle', 'large']),
   /** The type of the button. */
-  type: propTypes.oneOf(['dashed', 'outline', 'ghost']),
-  /** Icon before the children. */
-  leadingIcon: propTypes.element,
+  type: propTypes.oneOf(['primary', 'dashed', 'outline', 'ghost']),
   /** If true, the button will be disabled. */
   disabled: propTypes.bool,
   /** Callback when click. */

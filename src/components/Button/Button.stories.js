@@ -1,5 +1,4 @@
 import React from 'react'
-import { ReactComponent as SunIcon } from '../../assets/svg/Sun.svg'
 import Button from './Button'
 import styles from '../../storybook/index.module.scss'
 import { centerDecorator } from '../../utils/storybook/decorators'
@@ -34,8 +33,6 @@ export const disable = () => (
     <Button disabled>Disabled</Button>
   </div>
 )
-
-export const withIcon = () => <Button leadingIcon={<SunIcon />}>leading</Button>
 
 export const withClassName = () => (
   <div className={styles.marginFlexContainer}>

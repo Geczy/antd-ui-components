@@ -38,7 +38,7 @@
     "lint:fix": "eslint -c .eslintrc.js src --fix",
     "test:staged": "cross-env CI=true react-scripts test --bail --env=jsdom --findRelatedTests",
     "test-jenkins": "cross-env CI=true npm test",
-    "storybook": "start-storybook -p 9009",
+    "storybook": "start-storybook -h localhost -p 9009",
     "build-storybook": "build-storybook",
     "prepublishOnly": "npm run build"
   },

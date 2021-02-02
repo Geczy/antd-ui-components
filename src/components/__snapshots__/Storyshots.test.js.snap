@@ -550,9 +550,9 @@ exports[`Storyshots Content/Lists/List Basic 1`] = `
         <div
           className="content"
         >
-           
+
           Item 1
-           
+
         </div>
         <div />
       </li>
@@ -563,9 +563,9 @@ exports[`Storyshots Content/Lists/List Basic 1`] = `
         <div
           className="content"
         >
-           
+
           Item 2
-           
+
         </div>
         <div />
       </li>
@@ -576,9 +576,9 @@ exports[`Storyshots Content/Lists/List Basic 1`] = `
         <div
           className="content"
         >
-           
+
           Item 3
-           
+
         </div>
         <div />
       </li>
@@ -589,9 +589,9 @@ exports[`Storyshots Content/Lists/List Basic 1`] = `
         <div
           className="content"
         >
-           
+
           Item 4
-           
+
         </div>
         <div />
       </li>
@@ -635,9 +635,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 1
-           
+
         </div>
         <div />
       </li>
@@ -663,9 +663,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 2
-           
+
         </div>
         <div />
       </li>
@@ -691,9 +691,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 3
-           
+
         </div>
         <div />
       </li>
@@ -719,9 +719,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 4
-           
+
         </div>
         <div />
       </li>
@@ -747,9 +747,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 5
-           
+
         </div>
         <div />
       </li>
@@ -775,9 +775,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 6
-           
+
         </div>
         <div />
       </li>
@@ -803,9 +803,9 @@ exports[`Storyshots Content/Lists/List With Leading 1`] = `
         <div
           className="content"
         >
-           
+
           Item 7
-           
+
         </div>
         <div />
       </li>
@@ -834,9 +834,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 1
-           
+
         </div>
         <div>
           <button
@@ -856,9 +856,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 2
-           
+
         </div>
         <div>
           <button
@@ -878,9 +878,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 3
-           
+
         </div>
         <div>
           <button
@@ -900,9 +900,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 4
-           
+
         </div>
         <div>
           <button
@@ -922,9 +922,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 5
-           
+
         </div>
         <div>
           <button
@@ -944,9 +944,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 6
-           
+
         </div>
         <div>
           <button
@@ -966,9 +966,9 @@ exports[`Storyshots Content/Lists/List With Trailing 1`] = `
         <div
           className="content"
         >
-           
+
           Item 7
-           
+
         </div>
         <div>
           <button
@@ -1051,7 +1051,7 @@ exports[`Storyshots Content/Table Basic 1`] = `
         className="results"
       >
         0
-         
+
         Results
       </div>
       <div
@@ -1093,7 +1093,7 @@ exports[`Storyshots Content/Table Infinite Scroll 1`] = `
         className="results"
       >
         0
-         
+
         Results
       </div>
       <div
@@ -1232,7 +1232,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
       >
         * The following icons import from
         <a
-          href="https://github.com/AnyVisionltd/anv-icons"
+          href="https://github.com/InMarketltd/anv-icons"
         >
           @anyvision/anv-icons
         </a>
@@ -1297,13 +1297,13 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className=""
                       >
-                        
+
 
                       </span>
                       <span
                         className=""
                       >
-                        
+
                       </span>
                       <span
                         className="token keyword module"
@@ -1313,7 +1313,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className=""
                       >
-                         
+
                       </span>
                       <span
                         className="token imports token punctuation"
@@ -1323,7 +1323,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className="token imports"
                       >
-                         
+
                       </span>
                       <span
                         className="token imports token maybe-class-name"
@@ -1333,7 +1333,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className="token imports"
                       >
-                         
+
                       </span>
                       <span
                         className="token imports token punctuation"
@@ -1343,7 +1343,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className=""
                       >
-                         
+
                       </span>
                       <span
                         className="token keyword module"
@@ -1353,7 +1353,7 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className=""
                       >
-                         
+
                       </span>
                       <span
                         className="token string"
@@ -1363,29 +1363,29 @@ exports[`Storyshots Icons/Icons All 1`] = `
                       <span
                         className=""
                       >
-                        
+
 
                       </span>
                       <span
                         className=""
                       >
-                        
+
                       </span>
                       <span
                         className="token comment"
                       >
-                        // use        
+                        // use
                       </span>
                       <span
                         className=""
                       >
-                        
+
 
                       </span>
                       <span
                         className=""
                       >
-                        
+
                       </span>
                       <span
                         className="token operator"
@@ -10007,7 +10007,7 @@ exports[`Storyshots User Inputs/ChipsInput Controlled 1`] = `
       <span
         className="marginFlexContainer"
       >
-        Only chips that contain 
+        Only chips that contain
         <b>
           a
         </b>
@@ -10051,7 +10051,7 @@ exports[`Storyshots User Inputs/ChipsInput Custom Chip Validation 1`] = `
       <span
         className="marginFlexContainer"
       >
-        Only chips that contain 
+        Only chips that contain
         <b>
           abc
         </b>
@@ -10229,24 +10229,24 @@ exports[`Storyshots User Inputs/ChipsInput Get Icon Handler 1`] = `
       <span
         className="marginFlexContainer"
       >
-        Insert 
+        Insert
         <b>
           first
         </b>
-         for 
+         for
         <b>
           Eye
         </b>
-         icon, 
+         icon,
         <b>
           second
         </b>
-         for 
+         for
         <b>
           Arrow
         </b>
-         
-        icon and everything else for 
+
+        icon and everything else for
         <b>
           Filter
         </b>
@@ -10510,9 +10510,9 @@ exports[`Storyshots User Inputs/ChipsInput Play Ground 1`] = `
       <label
         className="helperText"
       >
-         
+
         This is the helper text
-         
+
       </label>
     </div>
   </div>
@@ -10547,7 +10547,7 @@ exports[`Storyshots User Inputs/FormProvider Basic 1`] = `
               className="ellipsis"
               onMouseEnter={[Function]}
             >
-              AnyVisionAdmin
+              InMarketAdmin
             </div>
           </div>
         </div>
@@ -10798,7 +10798,7 @@ exports[`Storyshots User Inputs/FormProvider Nested 1`] = `
             className="inputBase text inputBase bottom"
           >
             <input
-              defaultValue="AnyVisionAdmin"
+              defaultValue="InMarketAdmin"
               onChange={[Function]}
               readOnly={false}
               type="text"
@@ -12923,7 +12923,7 @@ exports[`Storyshots User Inputs/TextField View 1`] = `
           </svg>
           <div>
             <label>
-              This is empty 
+              This is empty
             </label>
             <div
               className="ellipsis none"
