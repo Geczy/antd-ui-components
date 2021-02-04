@@ -14,20 +14,11 @@
     "url": "https://github.com/geczy/antd-ui-components"
   },
   "dependencies": {
-    "@anyvision/style-guide": "1.0.4",
-    "@popperjs/core": "^2.6.0",
     "antd": "^4.11.2",
-    "classnames": "^2.2.6",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "moment": "^2.27.0",
     "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react-beautiful-dnd": "^13.0.0",
-    "react-popper": "^2.2.3",
-    "react-transition-group": "^4.3.0",
-    "react-virtualized-auto-sizer": "^1.0.2",
-    "react-window": "^1.8.5",
-    "react-window-infinite-loader": "^1.0.5"
+    "prop-types": "^15.7.2"
   },
   "scripts": {
     "build": "rollup -c",
