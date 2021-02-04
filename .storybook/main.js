@@ -21,7 +21,6 @@ module.exports = {
     '@storybook/addon-docs',
     '@storybook/addon-knobs',
     '@storybook/addon-controls',
-    './av-theme-addon/register.js',
     '@storybook/addon-actions',
   ],
   webpackFinal: async (config, { configType }) => {

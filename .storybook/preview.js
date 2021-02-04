@@ -1,5 +1,4 @@
 import { addParameters, addDecorator } from '@storybook/react'
-import avTheme from './av-theme-addon/decorator'
 
 addParameters({
   options: {
@@ -9,5 +8,3 @@ addParameters({
   },
   controls: { hideNoControlsWarning: true },
 })
-
-addDecorator(avTheme)
